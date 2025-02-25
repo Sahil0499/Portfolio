@@ -45,7 +45,7 @@ const Hero = () => {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              A dedicated software engineer driven by a passion for addressing real-world problems.
+              A dedicated data analyst passionate about solving real-world problems through data-driven insights.
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
@@ -111,7 +111,7 @@ const Hero = () => {
               <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">
                 <img
                   className=" w-[135px] md:w-[90px] circle-text"
-                  src="https://ik.imagekit.io/imgkitt/tr:w-400/Full_Stack_Developer2.png?updatedAt=1683134009107"
+                  src="../../assets/Data_Analyst-removebg-preview.png"
                   alt=""
                 />
                 <FaPlay
