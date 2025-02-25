@@ -1,6 +1,10 @@
 import React from "react";
 import ProgressBar from "../../chip/ProgressBar";
 import SkillBox from "../../chip/SkillBox";
+import PowerBILogo from '../../assets/Power-Bi-Logo-PNG-Photos.png'
+import SQLLogo from '../../assets/sql logo.png'
+import ExcelLogo from '../../assets/excel logo.png'
+import PythonLogo from '../../assets/python-logo-png-open-2000.png'
 
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 
@@ -42,19 +46,12 @@ const Skills = ({ darkMode }) => {
               className="progress flex items-center h-[100%] justify-end md:justify-center"
             >
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
-                <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={95} />
-                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={85} />
-                <ProgressBar
-                  logo={<SiJavascript />}
-                  name={"Javascript"}
-                  value={90}
-                />
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={70} />
-                <ProgressBar
-                  logo={<SiTailwindcss />}
-                  name={"Tailwind CSS"}
-                  value={60}
-                />
+                {/* <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={95} /> */}
+                <ProgressBar name={"Power Query (M- Query)"} value={95} />
+                <ProgressBar name={"DAX"} value={85} />
+                <ProgressBar name={"Data Modelling"} value={90} />
+                <ProgressBar name={"Statistics"} value={60} />
+                <ProgressBar name={"Azure"} value={70} />
               </div>
             </div>
           </div>
@@ -62,33 +59,31 @@ const Skills = ({ darkMode }) => {
           <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
             <div className="first2 flex flex-col gap-10">
               <SkillBox
-                logo={<IoLogoNodejs />}
+                logo={<img src={PowerBILogo} alt="Power BI" className="w-8 h-8" />}
                 black={"white"}
                 white={"black"}
-                skill={"Node Js"}
+                skill={"POWER BI"}
               />
               <SkillBox
-                logo={<SiMongodb />}
+                logo={<img src={SQLLogo} alt="Power BI" className="w-8 h-8" />}
                 black={"white"}
                 white={"black"}
-                skill={"MongoDB"}
+                skill={"SQL"}
               />
             </div>
             <div className="last2 flex flex-col gap-10">
               <SkillBox
-                logo={<SiExpress />}
+                logo={<img src={ExcelLogo} alt="Power BI" className="w-12 h-8" />}
                 black={"black"}
                 white={"white"}
-                skill={"Express Js"}
+                skill={"EXCEL"}
               />
               <SkillBox
                 className=""
-                logo={
-                  <GrCode/>
-                }
+                logo={<img src={PythonLogo} alt="Power BI" className="w-8 h-8" />}
                 black={"black"}
                 white={"white"}
-                skill={"Testcafe"}
+                skill={"PYTHON"}
               />
               {/* <SkillBox
                 className=""

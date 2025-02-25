@@ -34,32 +34,43 @@ const Resume = () => {
               </div>
               {/* design */}
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
-                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  Software Engineer
+              <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                  Lead Engineer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
                   HCLTech
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  May 2022 - Present
+                  July 2024 - Present
                 </span>
                 <span className=" text-[.9rem] font-bold text-yellow-500 sm:text-base">
                   MICROSOFT
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                • Designed and developed a comprehensive Chrome extension tool for
-                creating <span className="font-bold">ICM incidents,</span> resulting in a <span className="font-bold">50% reduction in incident creation
-                time.</span> <br />
-                • Integrated a screenshot feature into the extension to enhance user
-                experience. <br />
-                • Implemented a streamlined workflow system that assigns incidents to
-                the most appropriate team, resulting in a <span className="font-bold">20% increase in incident
-                resolution efficiency.</span> <br />
-                • Created Power Bi dashboard that enables client to track & analyze
-                incidents data and necessary information. <br />
-                • Successfully maintained and stabilized <span className="font-bold">450+ test cases for Outlook
-                (Dynamics 365)</span> across multiple web browsers, reducing browser
-                compatibility issues. <br />
+                • Analyzed <span className="font-bold">large datasets</span> to identify patterns and deliver <span className="font-bold">actionable insights</span>, driving process improvements and supporting strategic <span className="font-bold">decision-making.</span> <br />
+                • <span className="font-bold">Optimized SQL queries</span> for Microsoft’s internal reporting by applying <span className="font-bold">indexing and query tuning techniques,</span> improving data retrieval speed by <span className="font-bold">20%</span> and enhancing <span className="font-bold">dashboard performance.</span> <br />
+                • Maintained and optimized <span className="font-bold">450+</span> test cases for <span className="font-bold">Outlook (Dynamics 365)</span> across multiple browsers, reducing compatibility issues and increasing the pass rate from <span className="font-bold">69% to 95.4%.</span> Provided <span className="font-bold">development support</span> to streamline issue resolution. <br />
+               
+                <br /> 
+                </p>
+
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
+                  Associate
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                  HCLTech
+                </span>
+                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+                  May 2022 - June 2024
+                </span>
+                <span className=" text-[.9rem] font-bold text-yellow-500 sm:text-base">
+                  MICROSOFT
+                </span>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                • <span className="font-bold">Designed and developed a Chrome extension tool</span> to automate incident creation on
+                 <span className="font-bold">Microsoft’s internal platform</span>, reducing manual effort by <span className="font-bold">50%</span> 
+                 and streamlining operational processes. <br />
+                
                 <br /> 
                 </p>
               </div>
@@ -83,7 +94,13 @@ const Resume = () => {
               <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
 
               <p className=" text-[.9rem] text-justify text-gray-500">
-              
+               • Processed and transformed client data using <span className="font-bold">DAX</span> and <span className="font-bold">Excel</span>, 
+                ensuring <span className="font-bold">data completeness, accuracy,</span> and <span className="font-bold">consistency</span> across reports,
+                 resulting in reliable <span className="font-bold">performance tracking</span> and increased stakeholder confidence. <br />
+                
+               • Built <span className="font-bold">ETL pipelines</span> using <span className="font-bold">Python and SQL</span> to clean and transform multi-source datasets, reducing processing time by <span className="font-bold">25%.</span> Conducted <span className="font-bold">EDA</span> to 
+                identify <span className="font-bold">trends</span>, improving reporting accuracy by <span className="font-bold">15%</span>. <br />
+               • Integrated a screenshot feature into the extension to enhance user experience. <br />
                • Improved test case design and execution processes, resulting in a <span className="font-bold">26%
                 increase in the passing rate</span> from 69% to 95.4%.<br />
                 <br />
